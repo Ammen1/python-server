@@ -38,3 +38,7 @@ def com(a,b, c=True, d=4):
     pass
 
 com(*[1,3], **{"c":"hello", "d": "cool"})
+
+
+if __name__ == '__main__':
+    print("Run")
